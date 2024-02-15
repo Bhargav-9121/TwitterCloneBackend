@@ -1,6 +1,6 @@
 # Twitter
 
-The two files `app.js` file and a database file `twitterClone.db` consisting of five tables `user`, `follower`, `tweet`, `reply`, and `like`.
+The database file `twitterClone.db` consists of five tables `user`, `follower`, `tweet`, `reply`, and `like`.
 
 APIs to perform operations on the tables `user`, `follower`, `tweet`, `reply`, and `like` containing the following columns,
 
