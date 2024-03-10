@@ -22,7 +22,6 @@ const initializeDBAndServer = async () => {
 
 initializeDBAndServer();
 
-// No need actually, but just cuz I wanted to try out the middleware function thing
 const checkingThing = async (request, response, next) => {
   const { username, password, name, gender } = request.body;
   const checkQuery = `select * from user where username = '${username}';`;
